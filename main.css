@@ -1,0 +1,24 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    padding-left: 8px;
+}
+
+.nav-pills .nav-link {
+    padding-left: 5px;
+}
+
+section {
+    height: 80vh;
+}
+
+.carousel-inner img {
+    width: 100%;
+}

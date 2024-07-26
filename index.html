@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <div class="navbar navbar-expand-lg">
+                <h1>Nome Cabeçalho</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target='#menu-header'>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu-header">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-itens">
+                            <a class="nav-link active" href="#sobre-section">Sobre</a>
+                        </li>
+                        <li class="nav-itens">
+                            <a class="nav-link" href="#servicos-section">Serviços</a>
+                        </li>
+                        <li class="nav-itens">
+                            <a class="nav-link" href="#beneficios-section">Beneficios</a>
+                        </li>
+                        <li class="nav-itens">
+                            <a class="nav-link" href="#contato-section">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre-section">
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item active">
+                        <img src="./imagens/Slide1.png" />
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./imagens/Slide2.png" />
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./imagens/Slide3.png" />
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./imagens/Slide4.png" />
+                    </div>
+                </div>
+                <div class="carousel-inner">
+                    <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./imagens/Slide5.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos-section">
+            <div class="container">
+                <h2>Serviços</h2>
+            </div>
+        </section>
+        <section id="beneficios-section">
+            <div class="container">
+                <h2>Beneficios</h2>
+            </div>
+        </section>
+        <section id="contato-section">
+            <div class="container">
+                <h2>Contato</h2>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
