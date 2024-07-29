@@ -36,30 +36,35 @@
     </header>
     <div data-bs-spy="scroll" data-bs-target="#cabecalho">
         <section id="sobre-section">
-            <div class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel-cabecalho" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item active">
                         <img src="./imagens/Slide1.png" />
                     </div>
-                </div>
-                <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item">
                         <img src="./imagens/Slide2.png" />
                     </div>
-                </div>
-                <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item">
                         <img src="./imagens/Slide3.png" />
                     </div>
-                </div>
-                <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item">
                         <img src="./imagens/Slide4.png" />
                     </div>
-                </div>
-                <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item">
                         <img src="./imagens/Slide5.png" />
+                    </div>
+                    <button data-bs-target="#carousel-cabecalho" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-cabecalho" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-cabecalho" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="4"></button>
                     </div>
                 </div>
             </div>
