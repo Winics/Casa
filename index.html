@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
 </head>
@@ -11,7 +12,8 @@
     <header id="cabecalho">
         <div class="container">
             <div class="navbar navbar-expand-lg">
-                <h1>Nome Cabeçalho</h1>
+                <img src="./imagens/logo-casa.png" />
+                <h1>Swing</h1>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target='#menu-header'>
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,10 +23,10 @@
                             <a class="nav-link active" href="#sobre-section">Sobre</a>
                         </li>
                         <li class="nav-itens">
-                            <a class="nav-link" href="#servicos-section">Serviços</a>
+                            <a class="nav-link" href="#beneficios-section">Beneficios</a>
                         </li>
                         <li class="nav-itens">
-                            <a class="nav-link" href="#beneficios-section">Beneficios</a>
+                            <a class="nav-link" href="#servicos-section">Serviços</a>
                         </li>
                         <li class="nav-itens">
                             <a class="nav-link" href="#contato-section">Contato</a>
@@ -39,19 +41,40 @@
             <div id="carousel-cabecalho" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div data-bs-interval="1000" class="carousel-item active">
-                        <img src="./imagens/Slide1.png" />
+                        <div style="background-image: url(./imagens/slide1.png); background-size: cover; height: 80vh;">
+                            <div class="container front-slide">
+                                <div class="front-slide-background">
+                                    <h2>Acreditamos que cada lar tem sua própria essência.<br>Por isso, oferecemos uma seleção cuidadosamente escolhida de produtos que transformam casas em verdadeiros refúgios!</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div data-bs-interval="1000" class="carousel-item">
-                        <img src="./imagens/Slide2.png" />
+                        <div style="background-image: url(./imagens/slide2.png); background-size: cover; height: 80vh;">
+                            <div class="container front-slide">
+                                <div class="front-slide-background">
+                                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque excepturi temporibus tenetur! Ipsum sit soluta harum. Sit dolores odio ipsa, ea suscipit ullam laborum iste explicabo repellendus fuga, exercitationem consectetur?</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div data-bs-interval="1000" class="carousel-item">
-                        <img src="./imagens/Slide3.png" />
+                        <div style="background-image: url(./imagens/slide3.png); background-size: cover; height: 80vh;">
+                            <div class="container front-slide">
+                                <div class="front-slide-background">
+                                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati labore distinctio itaque temporibus omnis? Possimus quidem, quasi qui earum ea atque doloremque! Vel ullam culpa ad veniam, optio facere ab!</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div data-bs-interval="1000" class="carousel-item">
-                        <img src="./imagens/Slide4.png" />
-                    </div>
-                    <div data-bs-interval="1000" class="carousel-item">
-                        <img src="./imagens/Slide5.png" />
+                        <div style="background-image: url(./imagens/slide4.png); background-size: cover; height: 80vh;">
+                            <div class="container front-slide">
+                                <div class="front-slide-background">
+                                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nihil, nostrum magnam expedita ipsam aliquam saepe, laudantium eos dolorum, facere eligendi corporis ut tempore ea error tenetur quasi enim aperiam!</h2>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <button data-bs-target="#carousel-cabecalho" data-bs-slide="prev" class="carousel-control-prev" type="button">
                         <span class="carousel-control-prev-icon"></span>
@@ -64,21 +87,115 @@
                         <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="1"></button>
                         <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="2"></button>
                         <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="3"></button>
-                        <button type="button" data-bs-target="#carousel-cabecalho" data-bs-slide-to="4"></button>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="servicos-section">
-            <div class="container">
-                <h2>Serviços</h2>
+    </section>
+    <section id="beneficios-section">
+        <div class="container">
+            <div class="d-flex sobre-section-logo">
+                <img src="./imagens/logo-casa.png" />
+                <div >
+                    <h2>Beneficios</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint debitis possimus perspiciatis a rem ipsa enim quis assumenda! Mollitia labore porro quae molestiae in vitae laborum numquam expedita excepturi aliquam?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reprehenderit sint cupiditate quis. Obcaecati repudiandae, amet fugiat quibusdam delectus sed quidem cupiditate aperiam? Porro id quasi iure facilis tempora assumenda.
+                    </p>
+                    <h3>Nossas Redes</h3>
+                    <a href="#">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-instagram text-color"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-facebook text-color"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </div>
             </div>
-        </section>
-        <section id="beneficios-section">
-            <div class="container">
-                <h2>Beneficios</h2>
+        </div>
+    </section>
+    <section id="servicos-section">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/card-2.png"/>
+                        <div class="card-img-overlay">
+                            <div class="edit-card">
+                                <h4 class="card-title">
+                                    Title porra
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia cum incidunt hic. Id, quod eum? Adipisci optio laboriosam dolores velit, voluptates nam. Doloribus recusandae nesciunt id dolorum aliquam harum.
+                                </p>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p>
+                                    Gostou?
+                                </p>
+                                <a href="#" class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/card-1.png" alt="">
+                        <div class="card-img-overlay">
+                            <div class="edit-card">
+                                <h4 class="card-title">
+                                    Title porra
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia cum incidunt hic. Id, quod eum? Adipisci optio laboriosam dolores velit, voluptates nam. Doloribus recusandae nesciunt id dolorum aliquam harum.
+                                </p>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p>
+                                    Gostou?
+                                </p>
+                                <a href="#" class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-sm-12">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/card-3.png" alt="">
+                        <div class="card-img-overlay">
+                            <div class="edit-card">
+                                <h4 class="card-title">
+                                    Title porra
+                                </h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia cum incidunt hic. Id, quod eum? Adipisci optio laboriosam dolores velit, voluptates nam. Doloribus recusandae nesciunt id dolorum aliquam harum.
+                                </p>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <p>
+                                    Gostou?
+                                </p>
+                                <a href="#" class="btn btn-primary">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
         <section id="contato-section">
             <div class="container">
                 <h2>Contato</h2>

@@ -2,23 +2,109 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.98);
     z-index: 1;
+    border-radius: 15px;
 }
 
-.navbar-nav .nav-link.active {
-    color: white;
-    padding-left: 8px;
+header img {
+    height: 50px;
+    margin-right: 10px;
 }
 
 .nav-pills .nav-link {
     padding-left: 5px;
 }
 
-section {
-    height: 80vh;
+.container.front-slide {
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    padding-left: 40%;
 }
 
-.container {
-    height: 100%;
+@media screen and (max-width: 767px) {
+    .container.front-slide {
+        padding-left: 0%;
+    }
+}
+
+.front-slide-background {
+    background-color: rgba(34, 54, 65, 0.85);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+li.nav-itens .nav-link.active {
+    background-color: rgb(34, 54, 65);
+    color: white;
+}
+
+.edit-card h4 {
+    font-size: xx-large;
+    padding: 10px 0;
+}
+
+.edit-card p {
+    padding-top: 8px;
+    font-size: large;
+}
+
+.edit-card a  {
+    background-color: rgb(34, 54, 65);
+    border-color: rgb(34, 54, 65);
+}
+
+.edit-card a:hover {
+    background-color: white;
+    border-color: rgb(34, 54, 65);
+    color: rgb(34, 54, 65);
+}
+
+.sobre-section {
+    cursor: pointer;
+}
+
+.sobre-section-logo {
+    align-items: self-start;
+    margin: 40px 0;
+}
+
+.sobre-section-logo h2 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.sobre-section-logo p {
+    font-size: large;
+}
+
+.sobre-section-logo div {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.sobre-section-logo div h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sobre-section-logo div img {
+    margin-top: 15px;
+}
+
+.sobre-section-logo a i {
+    font-size: xx-large;
+    margin-right: 20px;
+    color: rgb(34, 54, 65);
+}
+
+.sobre-section-logo a {
+    text-decoration: none;
 }
