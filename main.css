@@ -27,12 +27,6 @@ header img {
     padding-left: 40%;
 }
 
-@media screen and (max-width: 767px) {
-    .container.front-slide {
-        padding-left: 0%;
-    }
-}
-
 .front-slide-background {
     background-color: rgba(34, 54, 65, 0.85);
     padding: 20px;
@@ -76,7 +70,7 @@ li.nav-itens .nav-link.active {
 }
 
 .sobre-section-logo h2 {
-    margin-top: 45px;
+    margin-top: 5px;
     margin-bottom: 20px;
     font-size: xx-large;
 }
@@ -87,7 +81,6 @@ li.nav-itens .nav-link.active {
 
 .sobre-section-logo div {
     width: 100%;
-    margin-left: 20px;
 }
 
 .sobre-section-logo div h3 {
@@ -108,3 +101,70 @@ li.nav-itens .nav-link.active {
 .sobre-section-logo a {
     text-decoration: none;
 }
+
+.servicos-section {
+    background-color: rgb(34, 54, 65);
+    padding: 40px 0;
+}
+
+.servicos-section h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contato-section {
+    padding: 40px 0;
+}
+
+.contato-section form label {
+    margin-top: 10px;
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-color: rgb(34, 54, 65);
+}
+
+.form-check {
+    padding-top: 10px;
+}
+
+    @media screen and (max-width: 640px) {
+        .container.front-slide {
+            padding-left: 0%;
+        }
+    
+        .sobre-section-logo {
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width: 1023px) and (min-width:641px) {
+        .container.front-slide {
+            padding-left: 20%;
+        }
+        .sobre-section-logo img {
+            left: 0;
+            right: 0;
+        }
+    
+        .sobre-section-logo {
+            display: block;
+            width: 100%;
+            
+        }
+    
+        .sobre-section-logo div {
+            margin-left: 0px;
+        }
+        }
+    
+    @media screen and (min-width: 1024px) {
+        .sobre-section-logo{
+            display: flex;
+        }
+    
+        .sobre-section-logo div{
+            margin-left: 20px;
+        }
+    }
