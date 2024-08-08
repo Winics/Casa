@@ -133,9 +133,14 @@ li.nav-itens .nav-link.active {
         .container.front-slide {
             padding-left: 0%;
         }
+
+        .sobre-section-logo img {
+            width: 350px;
+        }
     
         .sobre-section-logo {
             display: block;
+            margin: 0 auto;
         }
     }
     
@@ -144,8 +149,8 @@ li.nav-itens .nav-link.active {
             padding-left: 20%;
         }
         .sobre-section-logo img {
-            left: 0;
-            right: 0;
+            display: block;
+            margin: 0 auto;
         }
     
         .sobre-section-logo {
